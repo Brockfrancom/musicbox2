@@ -32,14 +32,15 @@ notes = {
         'G#3':'28',
         'A#4':'29'
         }
-
+## https://www.youtube.com/watch?v=Oq5ZPH-r_YY
 ## To play a song, the sheet music needs to be translated to note objects. 
 perfect_notes = []
 high_notes = [
     Note(notes['D#2'], 1),
-    Note(notes['G2'], 1),
+    Note(notes['F2'], 1),
     Note(notes['G#2'], 1),
     Note(notes['G#2'], 1),
+
     Note(notes['C3'], 1),
     Note(notes['A#3'], 1),
     Note(notes['G#2'], 1),
@@ -49,14 +50,107 @@ high_notes = [
     Note(notes['C3'], 1),
     Note(notes['C3'], 1),
     Note(notes['C3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['G#2'], 1),
+
+    Note(notes['G#2'], 1),
+    Note(notes['A#3'], 1),
     Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
     Note(notes['C3'], 1),
 
+    Note(notes['C#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
 
-]
+    Note(notes['G#2'], 1),
 
-notes2 = [
+    Note(notes['G#2'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['C#3'], 1),
+    Note(notes['C#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+
+   # 30 seconds
+
+    Note(notes['D#3'], 1),
+    Note(notes['D#3'], 1),
+    Note(notes['D#3'], 1),
+    Note(notes['F3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+    
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['C#3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['G#2'], 1),
+
+    Note(notes['D#2'], 1), # 43 seconds
+
+    Note(notes['C3'], 1),
+
+    Note(notes['C#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1), # 49 seconds
+
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['C3'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['G#2'], 1),
+    Note(notes['C#3'], 1),
+
+    Note(notes['C3'], 1),
+
+    Note(notes['G#2'], 1),
+
+    Note(notes['D#2'], 1),
+    Note(notes['A#3'], 1),
+    Note(notes['A#3'], 1),
 ]
 
 perfect_notes.append(high_notes)
-perfect_notes.append(notes2)
