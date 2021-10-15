@@ -32,14 +32,12 @@ def calibrate():
                 else:
                     dropBall(str(i))
                 continue
-            else:
-                newAngle = int(newAngle)
+            newAngle = int(newAngle)
+            config[str(i)]["start"] = newAngle
             if i <= 15:
                 kit1.servo[i].angle = newAngle
-                config[str(i)]["start"] = newAngle
             else:
-                kit1.servo[i-16].angle = newAngle
-                config[str(i-16)]["start"] = newAngle
+                kit2.servo[i-16].angle = newAngle
         except Exception as e:
             print(e)
             with open('config.json', 'w') as fp:
