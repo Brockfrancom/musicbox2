@@ -2,8 +2,8 @@ from adafruit_servokit import ServoKit
 from adafruit_servokit import *
 import time
 import json
-kit1 = ServoKit(channels=16)
-kit2 = ServoKit(channels=16, address=0x41)
+kit1 = ServoKit(channels=16, frequency=200)
+kit2 = ServoKit(channels=16, address=0x41, frequency=200)
 
 with open('config.json') as f:
     data = f.read()
@@ -25,7 +25,15 @@ def calibrate():
     while True:
         try:
             i = int(input("Select servo: "))
-            newAngle = int(input("Select angle: "))
+            newAngle = input("Select angle or t to test: ")
+            if newAngle =="t":
+                if i <= 15:
+                    dropBall(str(i))
+                else:
+                    dropBall(str(i))
+                continue
+            else:
+                newAngle = int(newAngle)
             if i <= 15:
                 kit1.servo[i].angle = newAngle
                 config[str(i)]["start"] = newAngle
