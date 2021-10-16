@@ -1,11 +1,12 @@
 from perfect_song import perfect_notes
 from instrument import Xylophone
-
+import _thread
+import sys
 if __name__ == '__main__':
     instrument = Xylophone()
 
     try:
-        instrument.play(perfect_notes[i])
+        _thread.start_new_thread( instrument.play, (perfect_notes, ) )
     except Exception as e:
         print("Error:")
         print(e)
