@@ -17,25 +17,25 @@ notes = {
         'F3':'13',
         'G3':'14',
         'A4':'15',
-        'B4':'16',
-        'C4':'17',
-        'G#1':'18',
-        'A#2':'19',
-        'C#2':'20',
-        'D#2':'21',
-        'F#2':'22',
-        'G#2':'23',
-        'A#3':'24',
-        'C#3':'25',
-        'D#3':'26',
-        'F#3':'27',
-        'G#3':'28',
-        'A#4':'29'
+        'G#1':'16',
+        'A#2':'17',
+        'C#2':'18',
+        'D#2':'19',
+        'F#2':'20',
+        'G#2':'21',
+        'A#3':'22',
+        'C#3':'23',
+        'D#3':'24',
+        'F#3':'25',
+        'G#3':'26',
         }
+
+## 'B4':'16', # bigger instrument has this note.
+## 'C4':'17', # bigger instrument has this note.
+## 'A#4':'29' # bigger instrument has this note.
 ## https://www.youtube.com/watch?v=Oq5ZPH-r_YY
 ## To play a song, the sheet music needs to be translated to note objects. 
-perfect_notes = []
-high_notes = [
+perfect_notes = [
     Note(notes['D#2'], 1),
     Note(notes['F2'], 1),
     Note(notes['G#2'], 1),
@@ -82,9 +82,7 @@ high_notes = [
     Note(notes['G#2'], 1),
     Note(notes['A#3'], 1),
     Note(notes['C3'], 1),
-    Note(notes['A#3'], 1),
-
-   # 30 seconds
+    Note(notes['A#3'], 1), # 30 seconds
 
     Note(notes['D#3'], 1),
     Note(notes['D#3'], 1),
@@ -153,4 +151,3 @@ high_notes = [
     Note(notes['A#3'], 1),
 ]
 
-perfect_notes.append(high_notes)

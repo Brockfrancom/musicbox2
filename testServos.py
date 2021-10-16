@@ -1,5 +1,4 @@
 from adafruit_servokit import ServoKit
-from adafruit_servokit import *
 import time
 import json
 kit1 = ServoKit(channels=16, frequency=200)
