@@ -11,7 +11,7 @@ config = json.loads(data)
 class Xylophone:
     def __init__(self):
         self.BPM = 60
-        self._pause = False
+        self._pause = True
         self.beat_time = 60/self.BPM
 
     def play(self, notes):
