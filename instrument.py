@@ -15,15 +15,11 @@ class Xylophone:
         self.beat_time = 60/self.BPM
 
     def play(self, notes):
+        print("Playing song...")
         for noteOb in notes:
             while self._pause:
                 sleep(1)
             
-            if noteOb.note == 'R':
-                wait_time_seconds = self.beat_time*noteOb.length
-                sleep(wait_time_seconds)
-                continue
-
             self.dropBall(noteOb.note)
             wait_time_seconds = self.beat_time*noteOb.length
             sleep(wait_time_seconds)
