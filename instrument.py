@@ -27,6 +27,7 @@ class Xylophone:
             self.dropBall(noteOb.note)
             wait_time_seconds = self.beat_time*noteOb.length
             sleep(wait_time_seconds)
+        print("Song ended.")
 
     def dropBall(self, note):
         intNote = int(note)
