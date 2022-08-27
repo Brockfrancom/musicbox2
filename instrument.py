@@ -18,7 +18,7 @@ class Xylophone:
         for noteOb in notes:
             while self._pause:
                 sleep(1)
-
+            
             if noteOb.note == 'R':
                 wait_time_seconds = self.beat_time*noteOb.length
                 sleep(wait_time_seconds)

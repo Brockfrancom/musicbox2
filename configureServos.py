@@ -24,12 +24,10 @@ def calibrate():
     while True:
         try:
             i = int(input("Select servo: "))
+            print("Angle is currently " + str(config[str(i)]["start"]))
             newAngle = input("Select angle or t to test: ")
             if newAngle =="t":
-                if i <= 15:
-                    dropBall(str(i))
-                else:
-                    dropBall(str(i))
+                dropBall(str(i))
                 continue
             newAngle = int(newAngle)
             config[str(i)]["start"] = newAngle
@@ -47,15 +45,27 @@ def test():
     while True:
         try:
             i = int(input("Select servo: "))
-            if i <= 15:
-                dropBall(str(i))
-            else:
-                dropBall(str(i-16))
+            dropBall(str(i))
         except Exception as e:
             print(e)
             break
-i = int(input("Press 1 to calibrate or 2 to test: "))
+
+def dropQuick():
+    for i in range(0,25):
+        dropBall("2")
+        time.sleep(.4)
+
+def dropAll():
+    for i in range(0, 27):
+        dropBall(str(i))
+        time.sleep(.3)
+
+i = int(input("Press\n1 to calibrate \n2 to test\n3 to drop quick\n4 to drop all \n"))
 if i == 1:
     calibrate()
 if i == 2:
     test()
+if i == 3:
+    dropQuick()
+if i == 4:
+    dropAll()
