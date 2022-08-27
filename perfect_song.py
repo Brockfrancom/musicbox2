@@ -41,73 +41,73 @@ perfect_notes = [
     Note(notes['G#2'], 1/8), # a 
     Note(notes['G#2'], 3),   # love
 
-    Note(notes['C3'], 1),    # for
-    Note(notes['A#3'], 1/2), 
-    Note(notes['G#2'], 1/2),
+    Note(notes['C3'], 1),    # fo-
+    Note(notes['A#3'], 1/2), # o- 
+    Note(notes['G#2'], 1/2), # or
     Note(notes['C3'], 3),    # me
  
-    Note(notes['A#3'], 1),   # darl
-    Note(notes['C3'], 1),    # ing
-    Note(notes['C3'], 1),    # just 
+    Note(notes['A#3'], 1/2),   # darl
+    Note(notes['C3'], 1/2),    # ing
+    Note(notes['C3'], 1/2),    # just 
     Note(notes['C3'], 1),    # dive
-    Note(notes['G#2'], 1),   # right
-    Note(notes['G#2'], 1),   # in
+    Note(notes['G#2'], 1/2),   # right
+    Note(notes['G#2'], 3),   # in
 
-    Note(notes['G#2'], 1),   # foll-
-    Note(notes['A#3'], 1),   # ow
-    Note(notes['C3'], 1),    # my
-    Note(notes['A#3'], 1),   # lead
+    Note(notes['G#2'], 1/2),   # foll-
+    Note(notes['A#3'], 1/2),   # ow
+    Note(notes['C3'], 1/2),    # my
+    Note(notes['A#3'], 3),   # lead
 
-    Note(notes['C3'], 1),    # I
-    Note(notes['A#3'], 1),   # found
-    Note(notes['G#2'], 1),   # a
-    Note(notes['C3'], 1),    # girl 
+    Note(notes['C3'], 1/2),    # I
+    Note(notes['A#3'], 1/2),   # found
+    Note(notes['G#2'], 1/2),   # a
+    Note(notes['C3'], 3),    # girl 
 
     Note(notes['C#3'], 1),   # beau-
-    Note(notes['C3'], 1),    # ti-
-    Note(notes['A#3'], 1),   # ful
-    Note(notes['G#2'], 1),   # and
+    Note(notes['C3'], 1/2),    # ti-
+    Note(notes['A#3'], 1/2),   # ful
+    Note(notes['G#2'], 1/2),   # and
 
-    Note(notes['G#2'], 1),   # sweet
+    Note(notes['G#2'], 2),   # sweet
 
-    Note(notes['G#2'], 1),   # I
-    Note(notes['A#3'], 1),   # nev-
-    Note(notes['C3'], 1),    # ver
+    Note(notes['G#2'], 1/2),   # I
+    Note(notes['A#3'], 1/2),   # nev-
+    Note(notes['C3'], 1/2),    # ver
     Note(notes['C#3'], 1),   # knew
-    Note(notes['C#3'], 1),   # you
+    Note(notes['C#3'], 1/2),   # you
     Note(notes['C3'], 1),    # were
-    Note(notes['A#3'], 1),   # the
-    Note(notes['A#3'], 1),   # some-
+    Note(notes['A#3'], 1/2),   # the
+    Note(notes['A#3'], 1/2),   # some-
     Note(notes['G#2'], 1),   # one
-    Note(notes['G#2'], 1),   # wait-
-    Note(notes['A#3'], 1),   # ing
-    Note(notes['C3'], 1),    # for
-    Note(notes['A#3'], 1),   # me      30 seconds
+    Note(notes['G#2'], 1/2),   # wait-
+    Note(notes['A#3'], 1/2),   # ing
+    Note(notes['C3'], 1/2),    # for
+    Note(notes['A#3'], 3),   # me      30 seconds
 
-    Note(notes['D#3'], 1),   # We
-    Note(notes['D#3'], 1),   # were
-    Note(notes['D#3'], 1),   # just
-    Note(notes['F3'], 1),    # kids
-    Note(notes['C3'], 1),    # when
-    Note(notes['A#3'], 1),   # we
+    Note(notes['D#3'], 1/2),   # We
+    Note(notes['D#3'], 1/2),   # were
+    Note(notes['D#3'], 1/2),   # just
+    Note(notes['F3'], 1/2),    # kids
+    Note(notes['C3'], 1/2),    # when
+    Note(notes['A#3'], 1/2),   # we
     Note(notes['C3'], 1),    # fell
 
     Note(notes['C3'], 1),    # in
 
     Note(notes['C3'], 1),    # love
 
-    Note(notes['C3'], 1),    # not
-    Note(notes['A#3'], 1),   # know-
-    Note(notes['G#2'], 1),   # ing
+    Note(notes['C3'], 1/2),    # not
+    Note(notes['A#3'], 1/2),   # know-
+    Note(notes['G#2'], 1/2),   # ing
     Note(notes['C3'], 1),    # what
 
     Note(notes['C3'], 1),    # it
     
     Note(notes['C3'], 1),    # was
 
-    Note(notes['C3'], 1),    # I
-    Note(notes['A#3'], 1),   # will
-    Note(notes['G#2'], 1),   # not
+    Note(notes['C3'], 1/2),    # I
+    Note(notes['A#3'], 1/2),   # will
+    Note(notes['G#2'], 1/2),   # not
     Note(notes['C#3'], 1),   # give
 
     Note(notes['C3'], 1),    # you
@@ -117,30 +117,32 @@ perfect_notes = [
     Note(notes['D#2'], 1),   # this   43 seconds
 
     Note(notes['C3'], 1),    # ti-
+    Note(notes['C#3'], 1/8),   # i-
+    Note(notes['C3'], 1/8),    # i-
+    Note(notes['A#3'], 3),   # me
 
-    Note(notes['C#3'], 1),   # i-
-    Note(notes['C3'], 1),    # i-
-    Note(notes['A#3'], 1),   # me
-    Note(notes['C3'], 1),    # Darl-
-    Note(notes['A#3'], 1),   # ing
-    Note(notes['G#2'], 1),   # just
+    Note(notes['C3'], 1/2),    # Darl-
+    Note(notes['A#3'], 1/2),   # ing
+    Note(notes['G#2'], 1/2),   # just
     Note(notes['C3'], 1),    # kiss
 
     Note(notes['C3'], 1),    # me    49 seconds
 
     Note(notes['C3'], 1),    # slow
-    Note(notes['A#3'], 1),   # your
-    Note(notes['G#2'], 1),   # heart
-    Note(notes['C3'], 1),    # is
+
+    Note(notes['A#3'], 1/2),   # your
+    Note(notes['G#2'], 1/2),   # heart
+    Note(notes['C3'], 1/2),    # is
 
     Note(notes['C3'], 1),    # all
 
     Note(notes['C3'], 1),    # I
 
     Note(notes['C3'], 1),    # own
-    Note(notes['A#3'], 1),   # and
-    Note(notes['G#2'], 1),   # in
-    Note(notes['C#3'], 1),   # your
+
+    Note(notes['A#3'], 1/2),   # and
+    Note(notes['G#2'], 1/2),   # in
+    Note(notes['C#3'], 1/2),   # your
 
     Note(notes['C3'], 1),    # eyes
 
